@@ -1,0 +1,2 @@
+"""Streamlit review application package."""
+

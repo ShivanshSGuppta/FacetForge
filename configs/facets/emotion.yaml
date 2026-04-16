@@ -1,0 +1,1201 @@
+facets:
+- facet_id: emotion.empathy.emotion_recognition
+  facet_name: Emotion Recognition
+  category: emotion
+  description: Recognizes the user's emotional state accurately.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on empathic response quality with respect to recognizes
+    the user's emotional state accurately. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.empathy.emotion_naming
+  facet_name: Emotion Naming
+  category: emotion
+  description: Names the emotional state in a grounded way when useful.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on empathic response quality with respect to names
+    the emotional state in a grounded way when useful. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.empathy.validation_quality
+  facet_name: Validation Quality
+  category: emotion
+  description: Validates feelings without sounding generic.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on empathic response quality with respect to validates
+    feelings without sounding generic. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.empathy.burden_sensitivity
+  facet_name: Burden Sensitivity
+  category: emotion
+  description: Shows sensitivity to the user's burden or effort.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on empathic response quality with respect to shows
+    sensitivity to the user's burden or effort. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.empathy.distress_response_fit
+  facet_name: Distress Response Fit
+  category: emotion
+  description: Adapts empathic response to the level of distress.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on empathic response quality with respect to adapts
+    empathic response to the level of distress. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.empathy.acknowledgment_timing
+  facet_name: Acknowledgment Timing
+  category: emotion
+  description: Places emotional acknowledgment at the right point.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on empathic response quality with respect to places
+    emotional acknowledgment at the right point. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.empathy.empathy_specificity
+  facet_name: Empathy Specificity
+  category: emotion
+  description: Uses specific empathy rather than stock phrasing.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on empathic response quality with respect to uses specific
+    empathy rather than stock phrasing. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.empathy.perspective_taking
+  facet_name: Perspective Taking
+  category: emotion
+  description: Reflects the user's perspective accurately.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on empathic response quality with respect to reflects
+    the user's perspective accurately. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.empathy.supportive_follow_through
+  facet_name: Supportive Follow Through
+  category: emotion
+  description: Follows acknowledgment with genuinely helpful support.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on empathic response quality with respect to follows
+    acknowledgment with genuinely helpful support. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.empathy.non_patronizing_empathy
+  facet_name: Non Patronizing Empathy
+  category: emotion
+  description: Avoids patronizing or overbearing empathy.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on empathic response quality with respect to avoids
+    patronizing or overbearing empathy. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.warmth.welcoming_tone
+  facet_name: Welcoming Tone
+  category: emotion
+  description: Creates an inviting tone.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on warmth and interpersonal ease with respect to creates
+    an inviting tone. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal is
+    mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: emotion.warmth.kindness_signal
+  facet_name: Kindness Signal
+  category: emotion
+  description: Signals kindness without overdoing it.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on warmth and interpersonal ease with respect to signals
+    kindness without overdoing it. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: emotion.warmth.encouragement_quality
+  facet_name: Encouragement Quality
+  category: emotion
+  description: Offers encouragement that feels earned.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on warmth and interpersonal ease with respect to offers
+    encouragement that feels earned. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: emotion.warmth.human_presence
+  facet_name: Human Presence
+  category: emotion
+  description: Feels human and present rather than cold.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on warmth and interpersonal ease with respect to feels
+    human and present rather than cold. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: emotion.warmth.rapport_building
+  facet_name: Rapport Building
+  category: emotion
+  description: Builds light rapport where appropriate.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on warmth and interpersonal ease with respect to builds
+    light rapport where appropriate. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: emotion.warmth.tone_softness
+  facet_name: Tone Softness
+  category: emotion
+  description: Uses a softened tone without becoming vague.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on warmth and interpersonal ease with respect to uses
+    a softened tone without becoming vague. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: emotion.warmth.gratitude_expression
+  facet_name: Gratitude Expression
+  category: emotion
+  description: Expresses gratitude appropriately when relevant.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on warmth and interpersonal ease with respect to expresses
+    gratitude appropriately when relevant. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: emotion.warmth.care_signal
+  facet_name: Care Signal
+  category: emotion
+  description: Signals care or concern when the context supports it.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on warmth and interpersonal ease with respect to signals
+    care or concern when the context supports it. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: emotion.warmth.closing_warmth
+  facet_name: Closing Warmth
+  category: emotion
+  description: Ends on a warm but professional note.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on warmth and interpersonal ease with respect to ends
+    on a warm but professional note. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: emotion.warmth.relational_balance
+  facet_name: Relational Balance
+  category: emotion
+  description: Balances warmth with task focus.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on warmth and interpersonal ease with respect to balances
+    warmth with task focus. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: emotion.frustration_detection.frustration_recognition
+  facet_name: Frustration Recognition
+  category: emotion
+  description: Recognizes signs of frustration or irritation.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on detection and handling of frustration with respect
+    to recognizes signs of frustration or irritation. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.frustration_detection.intensity_calibration
+  facet_name: Intensity Calibration
+  category: emotion
+  description: Calibrates to the level of frustration.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on detection and handling of frustration with respect
+    to calibrates to the level of frustration. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.frustration_detection.repair_orientation
+  facet_name: Repair Orientation
+  category: emotion
+  description: Moves toward repair when frustration is present.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on detection and handling of frustration with respect
+    to moves toward repair when frustration is present. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.frustration_detection.defensiveness_avoidance
+  facet_name: Defensiveness Avoidance
+  category: emotion
+  description: Avoids sounding defensive in response to frustration.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on detection and handling of frustration with respect
+    to avoids sounding defensive in response to frustration. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.frustration_detection.concern_prioritization
+  facet_name: Concern Prioritization
+  category: emotion
+  description: Prioritizes the frustrated concern instead of peripheral points.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on detection and handling of frustration with respect
+    to prioritizes the frustrated concern instead of peripheral points. Assign 25 when performance is
+    weak or inconsistent. Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn
+    is strong on this facet with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.frustration_detection.reassurance_quality
+  facet_name: Reassurance Quality
+  category: emotion
+  description: Offers reassurance without minimizing the issue.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on detection and handling of frustration with respect
+    to offers reassurance without minimizing the issue. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.frustration_detection.friction_reduction
+  facet_name: Friction Reduction
+  category: emotion
+  description: Reduces further friction in the exchange.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on detection and handling of frustration with respect
+    to reduces further friction in the exchange. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.frustration_detection.ownership_signal
+  facet_name: Ownership Signal
+  category: emotion
+  description: Signals ownership of the next useful action.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on detection and handling of frustration with respect
+    to signals ownership of the next useful action. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.frustration_detection.emotion_to_action_bridge
+  facet_name: Emotion To Action Bridge
+  category: emotion
+  description: Bridges from emotion acknowledgment to action cleanly.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on detection and handling of frustration with respect
+    to bridges from emotion acknowledgment to action cleanly. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.frustration_detection.frustration_recovery_support
+  facet_name: Frustration Recovery Support
+  category: emotion
+  description: Supports recovery from a frustrating interaction.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on detection and handling of frustration with respect
+    to supports recovery from a frustrating interaction. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.politeness.courtesy_markers
+  facet_name: Courtesy Markers
+  category: emotion
+  description: Uses courtesy markers appropriately.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on politeness and civility with respect to uses courtesy
+    markers appropriately. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: emotion.politeness.respectful_address
+  facet_name: Respectful Address
+  category: emotion
+  description: Addresses the user respectfully.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on politeness and civility with respect to addresses
+    the user respectfully. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: emotion.politeness.face_threat_mitigation
+  facet_name: Face Threat Mitigation
+  category: emotion
+  description: Mitigates face-threatening moves when possible.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on politeness and civility with respect to mitigates
+    face-threatening moves when possible. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: emotion.politeness.request_polish
+  facet_name: Request Polish
+  category: emotion
+  description: Phrases requests in a civil way.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on politeness and civility with respect to phrases
+    requests in a civil way. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: emotion.politeness.disagreement_politeness
+  facet_name: Disagreement Politeness
+  category: emotion
+  description: Handles disagreement politely.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on politeness and civility with respect to handles
+    disagreement politely. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: emotion.politeness.constraint_delivery_politeness
+  facet_name: Constraint Delivery Politeness
+  category: emotion
+  description: Communicates limits without sounding harsh.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on politeness and civility with respect to communicates
+    limits without sounding harsh. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: emotion.politeness.brevity_with_respect
+  facet_name: Brevity With Respect
+  category: emotion
+  description: Stays brief without sounding curt.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on politeness and civility with respect to stays brief
+    without sounding curt. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: emotion.politeness.professional_civility
+  facet_name: Professional Civility
+  category: emotion
+  description: Maintains professional civility under pressure.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on politeness and civility with respect to maintains
+    professional civility under pressure. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: emotion.politeness.gratitude_politeness
+  facet_name: Gratitude Politeness
+  category: emotion
+  description: Uses gratitude in a natural way.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on politeness and civility with respect to uses gratitude
+    in a natural way. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal is
+    mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: emotion.politeness.closing_civility
+  facet_name: Closing Civility
+  category: emotion
+  description: Closes with appropriate civility.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on politeness and civility with respect to closes with
+    appropriate civility. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: emotion.de_escalation.temperature_reduction
+  facet_name: Temperature Reduction
+  category: emotion
+  description: Reduces conversational temperature rather than raising it.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on de-escalation quality with respect to reduces conversational
+    temperature rather than raising it. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.de_escalation.calm_language_choice
+  facet_name: Calm Language Choice
+  category: emotion
+  description: Uses calm language under tension.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on de-escalation quality with respect to uses calm
+    language under tension. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.de_escalation.conflict_reframing
+  facet_name: Conflict Reframing
+  category: emotion
+  description: Reframes conflict toward problem solving.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on de-escalation quality with respect to reframes conflict
+    toward problem solving. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.de_escalation.non_triggering_wording
+  facet_name: Non Triggering Wording
+  category: emotion
+  description: Avoids wording likely to trigger further escalation.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on de-escalation quality with respect to avoids wording
+    likely to trigger further escalation. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.de_escalation.pace_slowing
+  facet_name: Pace Slowing
+  category: emotion
+  description: Slows the pace appropriately when emotions are high.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on de-escalation quality with respect to slows the
+    pace appropriately when emotions are high. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.de_escalation.common_ground_building
+  facet_name: Common Ground Building
+  category: emotion
+  description: Builds common ground where possible.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on de-escalation quality with respect to builds common
+    ground where possible. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.de_escalation.blame_restraint
+  facet_name: Blame Restraint
+  category: emotion
+  description: Avoids blame-forward framing.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on de-escalation quality with respect to avoids blame-forward
+    framing. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal is mixed or
+    merely adequate. Assign 75 when the turn is strong on this facet with only minor issues. Assign 90
+    when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.de_escalation.choice_restoration
+  facet_name: Choice Restoration
+  category: emotion
+  description: Restores a sense of options and control.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on de-escalation quality with respect to restores a
+    sense of options and control. Assign 25 when performance is weak or inconsistent. Assign 50 when the
+    signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor
+    issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.de_escalation.safety_and_calm_balance
+  facet_name: Safety And Calm Balance
+  category: emotion
+  description: Balances calm tone with serious safety concerns.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on de-escalation quality with respect to balances calm
+    tone with serious safety concerns. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.de_escalation.exit_path_quality
+  facet_name: Exit Path Quality
+  category: emotion
+  description: Provides a clean exit path from escalation.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on de-escalation quality with respect to provides a
+    clean exit path from escalation. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.emotional_acknowledgment.affect_visibility
+  facet_name: Affect Visibility
+  category: emotion
+  description: Makes it clear that the emotional content was noticed.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on acknowledgment of emotional content with respect
+    to makes it clear that the emotional content was noticed. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.emotional_acknowledgment.felt_experience_alignment
+  facet_name: Felt Experience Alignment
+  category: emotion
+  description: Aligns acknowledgment with the user's felt experience.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on acknowledgment of emotional content with respect
+    to aligns acknowledgment with the user's felt experience. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.emotional_acknowledgment.timeliness_of_acknowledgment
+  facet_name: Timeliness Of Acknowledgment
+  category: emotion
+  description: Acknowledges emotion before moving into tactics when needed.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on acknowledgment of emotional content with respect
+    to acknowledges emotion before moving into tactics when needed. Assign 25 when performance is weak
+    or inconsistent. Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is
+    strong on this facet with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.emotional_acknowledgment.balance_with_task_progress
+  facet_name: Balance With Task Progress
+  category: emotion
+  description: Balances acknowledgment with forward task progress.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on acknowledgment of emotional content with respect
+    to balances acknowledgment with forward task progress. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.emotional_acknowledgment.non_minimization
+  facet_name: Non Minimization
+  category: emotion
+  description: Does not minimize or dismiss emotion.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on acknowledgment of emotional content with respect
+    to does not minimize or dismiss emotion. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.emotional_acknowledgment.non_overinterpretation
+  facet_name: Non Overinterpretation
+  category: emotion
+  description: Avoids projecting emotions not supported by the text.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on acknowledgment of emotional content with respect
+    to avoids projecting emotions not supported by the text. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.emotional_acknowledgment.specific_reference
+  facet_name: Specific Reference
+  category: emotion
+  description: References the emotionally salient part of the message.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on acknowledgment of emotional content with respect
+    to references the emotionally salient part of the message. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.emotional_acknowledgment.response_depth_fit
+  facet_name: Response Depth Fit
+  category: emotion
+  description: Uses the right depth of emotional acknowledgment for the moment.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on acknowledgment of emotional content with respect
+    to uses the right depth of emotional acknowledgment for the moment. Assign 25 when performance is
+    weak or inconsistent. Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn
+    is strong on this facet with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.emotional_acknowledgment.transition_to_support
+  facet_name: Transition To Support
+  category: emotion
+  description: Transitions from acknowledgment to support smoothly.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on acknowledgment of emotional content with respect
+    to transitions from acknowledgment to support smoothly. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: emotion.emotional_acknowledgment.consistency_under_repetition
+  facet_name: Consistency Under Repetition
+  category: emotion
+  description: Acknowledges emotion consistently across repeated mentions.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on acknowledgment of emotional content with respect
+    to acknowledges emotion consistently across repeated mentions. Assign 25 when performance is weak
+    or inconsistent. Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is
+    strong on this facet with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0

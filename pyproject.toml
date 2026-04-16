@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "facetforge"
+version = "0.1.0"
+description = "Config-driven conversation turn evaluation platform."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [
+  { name = "Shivansh Gupta" }
+]
+dependencies = [
+  "fastapi>=0.115,<1.0",
+  "httpx>=0.27,<1.0",
+  "numpy>=1.26,<3.0",
+  "pandas>=2.2,<3.0",
+  "pydantic>=2.8,<3.0",
+  "PyYAML>=6.0,<7.0",
+  "python-dotenv>=1.0,<2.0",
+  "python-multipart>=0.0.9,<1.0",
+  "requests>=2.32,<3.0",
+  "streamlit>=1.44,<2.0",
+  "uvicorn>=0.30,<1.0"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3,<9.0"
+]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

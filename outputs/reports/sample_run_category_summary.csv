@@ -1,0 +1,5 @@
+category,mean_score,mean_confidence,abstain_rate,facet_count
+emotion,51.9167,0.2528,0.0,360
+linguistic,59.5278,0.2507,0.0,540
+pragmatics,52.7778,0.248,0.0,540
+safety,74.5,0.244,0.0,360

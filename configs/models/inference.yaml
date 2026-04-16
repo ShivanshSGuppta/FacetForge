@@ -1,0 +1,9 @@
+provider: none
+model_name: qwen2.5-7b-instruct
+base_url:
+api_key:
+temperature: 0.1
+max_tokens: 2048
+timeout_seconds: 45
+retries: 2
+

@@ -1,0 +1,1801 @@
+facets:
+- facet_id: pragmatics.relevance.request_alignment
+  facet_name: Request Alignment
+  category: pragmatics
+  description: Addresses the request that is actually on the table.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on relevance to the user's request with respect to
+    addresses the request that is actually on the table. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.relevance.task_focus
+  facet_name: Task Focus
+  category: pragmatics
+  description: Keeps effort focused on the user's task rather than side issues.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on relevance to the user's request with respect to
+    keeps effort focused on the user's task rather than side issues. Assign 25 when performance is weak
+    or inconsistent. Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is
+    strong on this facet with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.relevance.detail_relevance
+  facet_name: Detail Relevance
+  category: pragmatics
+  description: Adds detail that materially helps the user.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on relevance to the user's request with respect to
+    adds detail that materially helps the user. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.relevance.context_relevance
+  facet_name: Context Relevance
+  category: pragmatics
+  description: Uses surrounding context only when it improves the answer.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on relevance to the user's request with respect to
+    uses surrounding context only when it improves the answer. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.relevance.non_sequitur_avoidance
+  facet_name: Non Sequitur Avoidance
+  category: pragmatics
+  description: Avoids drifting into unrelated content.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on relevance to the user's request with respect to
+    avoids drifting into unrelated content. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.relevance.answer_selection
+  facet_name: Answer Selection
+  category: pragmatics
+  description: Selects the right answer mode for the request.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on relevance to the user's request with respect to
+    selects the right answer mode for the request. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.relevance.constraint_relevance
+  facet_name: Constraint Relevance
+  category: pragmatics
+  description: Responds to the explicit constraints the user gave.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on relevance to the user's request with respect to
+    responds to the explicit constraints the user gave. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.relevance.follow_up_relevance
+  facet_name: Follow Up Relevance
+  category: pragmatics
+  description: Asks follow-up questions only when they are genuinely necessary.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on relevance to the user's request with respect to
+    asks follow-up questions only when they are genuinely necessary. Assign 25 when performance is weak
+    or inconsistent. Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is
+    strong on this facet with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.relevance.retrieval_relevance
+  facet_name: Retrieval Relevance
+  category: pragmatics
+  description: Surfaces the most relevant information first.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on relevance to the user's request with respect to
+    surfaces the most relevant information first. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.relevance.scope_relevance
+  facet_name: Scope Relevance
+  category: pragmatics
+  description: Stays inside the relevant scope.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on relevance to the user's request with respect to
+    stays inside the relevant scope. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.directness.answer_first
+  facet_name: Answer First
+  category: pragmatics
+  description: Gets to the answer without avoidable delay.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on directness of response with respect to gets to the
+    answer without avoidable delay. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.directness.request_resolution
+  facet_name: Request Resolution
+  category: pragmatics
+  description: Makes clear progress toward resolving the request.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on directness of response with respect to makes clear
+    progress toward resolving the request. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.directness.hedging_control
+  facet_name: Hedging Control
+  category: pragmatics
+  description: Avoids over-hedging when the answer is straightforward.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on directness of response with respect to avoids over-hedging
+    when the answer is straightforward. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.directness.detour_avoidance
+  facet_name: Detour Avoidance
+  category: pragmatics
+  description: Avoids detours before giving the needed information.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on directness of response with respect to avoids detours
+    before giving the needed information. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.directness.question_response_match
+  facet_name: Question Response Match
+  category: pragmatics
+  description: Matches the force of a question with a direct reply.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on directness of response with respect to matches the
+    force of a question with a direct reply. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.directness.decision_support_directness
+  facet_name: Decision Support Directness
+  category: pragmatics
+  description: Gives actionable support when the user needs a decision.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on directness of response with respect to gives actionable
+    support when the user needs a decision. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.directness.instructional_directness
+  facet_name: Instructional Directness
+  category: pragmatics
+  description: Uses clear directive language when appropriate.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on directness of response with respect to uses clear
+    directive language when appropriate. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.directness.summary_front_loading
+  facet_name: Summary Front Loading
+  category: pragmatics
+  description: Front-loads the key takeaway when helpful.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on directness of response with respect to front-loads
+    the key takeaway when helpful. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.directness.ambiguity_in_response_posture
+  facet_name: Ambiguity In Response Posture
+  category: pragmatics
+  description: Makes its stance unmistakable.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on directness of response with respect to makes its
+    stance unmistakable. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.directness.closure_directness
+  facet_name: Closure Directness
+  category: pragmatics
+  description: Ends with a clear next step or conclusion when needed.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on directness of response with respect to ends with
+    a clear next step or conclusion when needed. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.completeness.core_requirement_coverage
+  facet_name: Core Requirement Coverage
+  category: pragmatics
+  description: Covers the core requirement fully.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on answer completeness with respect to covers the core
+    requirement fully. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal is
+    mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.completeness.subtask_coverage
+  facet_name: Subtask Coverage
+  category: pragmatics
+  description: Covers implied subtasks when they are essential.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on answer completeness with respect to covers implied
+    subtasks when they are essential. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.completeness.edge_case_awareness
+  facet_name: Edge Case Awareness
+  category: pragmatics
+  description: Acknowledges relevant edge cases.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on answer completeness with respect to acknowledges
+    relevant edge cases. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.completeness.missing_step_avoidance
+  facet_name: Missing Step Avoidance
+  category: pragmatics
+  description: Avoids skipping necessary steps.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on answer completeness with respect to avoids skipping
+    necessary steps. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal is
+    mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.completeness.closure_quality
+  facet_name: Closure Quality
+  category: pragmatics
+  description: Leaves the user with enough to act.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on answer completeness with respect to leaves the user
+    with enough to act. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.completeness.artifact_completeness
+  facet_name: Artifact Completeness
+  category: pragmatics
+  description: Includes all promised artifacts or deliverables.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on answer completeness with respect to includes all
+    promised artifacts or deliverables. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.completeness.dependency_disclosure
+  facet_name: Dependency Disclosure
+  category: pragmatics
+  description: States dependencies or prerequisites when needed.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on answer completeness with respect to states dependencies
+    or prerequisites when needed. Assign 25 when performance is weak or inconsistent. Assign 50 when the
+    signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor
+    issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.completeness.constraint_accounting
+  facet_name: Constraint Accounting
+  category: pragmatics
+  description: Accounts for explicit constraints before finishing.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on answer completeness with respect to accounts for
+    explicit constraints before finishing. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.completeness.follow_through
+  facet_name: Follow Through
+  category: pragmatics
+  description: Carries the answer through instead of stopping early.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on answer completeness with respect to carries the
+    answer through instead of stopping early. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.completeness.verification_completeness
+  facet_name: Verification Completeness
+  category: pragmatics
+  description: Includes suitable checks or validation when appropriate.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on answer completeness with respect to includes suitable
+    checks or validation when appropriate. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.intent_satisfaction.explicit_intent_match
+  facet_name: Explicit Intent Match
+  category: pragmatics
+  description: Matches the explicit intent the user stated.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on satisfaction of user intent with respect to matches
+    the explicit intent the user stated. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.intent_satisfaction.implicit_intent_match
+  facet_name: Implicit Intent Match
+  category: pragmatics
+  description: Accounts for likely implicit intent when warranted.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on satisfaction of user intent with respect to accounts
+    for likely implicit intent when warranted. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.intent_satisfaction.workflow_fit
+  facet_name: Workflow Fit
+  category: pragmatics
+  description: Fits naturally into the user's workflow.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on satisfaction of user intent with respect to fits
+    naturally into the user's workflow. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.intent_satisfaction.goal_completion_pressure
+  facet_name: Goal Completion Pressure
+  category: pragmatics
+  description: Pushes toward actual completion rather than partial help.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on satisfaction of user intent with respect to pushes
+    toward actual completion rather than partial help. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.intent_satisfaction.format_intent_match
+  facet_name: Format Intent Match
+  category: pragmatics
+  description: Returns the form the user actually wants.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on satisfaction of user intent with respect to returns
+    the form the user actually wants. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.intent_satisfaction.decision_intent_match
+  facet_name: Decision Intent Match
+  category: pragmatics
+  description: Answers decision-seeking requests in decision-ready form.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on satisfaction of user intent with respect to answers
+    decision-seeking requests in decision-ready form. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.intent_satisfaction.execution_intent_match
+  facet_name: Execution Intent Match
+  category: pragmatics
+  description: Acts rather than merely advising when execution is expected.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on satisfaction of user intent with respect to acts
+    rather than merely advising when execution is expected. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.intent_satisfaction.discovery_intent_match
+  facet_name: Discovery Intent Match
+  category: pragmatics
+  description: Explores when the user is clearly asking to investigate.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on satisfaction of user intent with respect to explores
+    when the user is clearly asking to investigate. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.intent_satisfaction.synthesis_intent_match
+  facet_name: Synthesis Intent Match
+  category: pragmatics
+  description: Synthesizes rather than listing when synthesis is needed.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on satisfaction of user intent with respect to synthesizes
+    rather than listing when synthesis is needed. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.intent_satisfaction.handoff_quality
+  facet_name: Handoff Quality
+  category: pragmatics
+  description: Leaves the user in a state that matches the goal of the exchange.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on satisfaction of user intent with respect to leaves
+    the user in a state that matches the goal of the exchange. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.cooperation.helpfulness_signal
+  facet_name: Helpfulness Signal
+  category: pragmatics
+  description: Shows willingness to help within the task constraints.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on cooperative conversational behavior with respect
+    to shows willingness to help within the task constraints. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.cooperation.assumption_transparency
+  facet_name: Assumption Transparency
+  category: pragmatics
+  description: States key assumptions instead of hiding them.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on cooperative conversational behavior with respect
+    to states key assumptions instead of hiding them. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.cooperation.constraint_honesty
+  facet_name: Constraint Honesty
+  category: pragmatics
+  description: Admits limitations without becoming evasive.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on cooperative conversational behavior with respect
+    to admits limitations without becoming evasive. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.cooperation.clarification_judgment
+  facet_name: Clarification Judgment
+  category: pragmatics
+  description: Chooses well between acting and asking for clarification.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on cooperative conversational behavior with respect
+    to chooses well between acting and asking for clarification. Assign 25 when performance is weak or
+    inconsistent. Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong
+    on this facet with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.cooperation.shared_context_use
+  facet_name: Shared Context Use
+  category: pragmatics
+  description: Uses shared context efficiently and respectfully.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on cooperative conversational behavior with respect
+    to uses shared context efficiently and respectfully. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.cooperation.repair_behavior
+  facet_name: Repair Behavior
+  category: pragmatics
+  description: Repairs misunderstandings cleanly when needed.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on cooperative conversational behavior with respect
+    to repairs misunderstandings cleanly when needed. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.cooperation.non_defensiveness
+  facet_name: Non Defensiveness
+  category: pragmatics
+  description: Avoids defensive posture when the user is dissatisfied.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on cooperative conversational behavior with respect
+    to avoids defensive posture when the user is dissatisfied. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.cooperation.ownership_of_next_step
+  facet_name: Ownership Of Next Step
+  category: pragmatics
+  description: Owns the next useful step when appropriate.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on cooperative conversational behavior with respect
+    to owns the next useful step when appropriate. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.cooperation.collaborative_tone
+  facet_name: Collaborative Tone
+  category: pragmatics
+  description: Maintains a collaborative posture throughout.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on cooperative conversational behavior with respect
+    to maintains a collaborative posture throughout. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.cooperation.signal_to_noise_ratio
+  facet_name: Signal To Noise Ratio
+  category: pragmatics
+  description: Keeps cooperative framing from overwhelming the actual answer.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on cooperative conversational behavior with respect
+    to keeps cooperative framing from overwhelming the actual answer. Assign 25 when performance is weak
+    or inconsistent. Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is
+    strong on this facet with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.turn_taking.response_timing_fit
+  facet_name: Response Timing Fit
+  category: pragmatics
+  description: Fits the expected response depth for the current turn.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on turn-taking appropriateness with respect to fits
+    the expected response depth for the current turn. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.turn_taking.interruption_avoidance
+  facet_name: Interruption Avoidance
+  category: pragmatics
+  description: Does not pre-empt the user's unresolved point.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on turn-taking appropriateness with respect to does
+    not pre-empt the user's unresolved point. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.turn_taking.follow_up_timing
+  facet_name: Follow Up Timing
+  category: pragmatics
+  description: Places follow-up questions at the right point in the exchange.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on turn-taking appropriateness with respect to places
+    follow-up questions at the right point in the exchange. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.turn_taking.initiative_balance
+  facet_name: Initiative Balance
+  category: pragmatics
+  description: Balances initiative without overcontrolling the exchange.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on turn-taking appropriateness with respect to balances
+    initiative without overcontrolling the exchange. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.turn_taking.turn_length_fit
+  facet_name: Turn Length Fit
+  category: pragmatics
+  description: Keeps turn length appropriate to the moment.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on turn-taking appropriateness with respect to keeps
+    turn length appropriate to the moment. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.turn_taking.adjacency_pair_completion
+  facet_name: Adjacency Pair Completion
+  category: pragmatics
+  description: Completes common adjacency pairs cleanly.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on turn-taking appropriateness with respect to completes
+    common adjacency pairs cleanly. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.turn_taking.handoff_smoothness
+  facet_name: Handoff Smoothness
+  category: pragmatics
+  description: Hands the floor back cleanly when appropriate.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on turn-taking appropriateness with respect to hands
+    the floor back cleanly when appropriate. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.turn_taking.dialogue_momentum
+  facet_name: Dialogue Momentum
+  category: pragmatics
+  description: Preserves forward conversational momentum.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on turn-taking appropriateness with respect to preserves
+    forward conversational momentum. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.turn_taking.escalation_timing
+  facet_name: Escalation Timing
+  category: pragmatics
+  description: Escalates caution or detail at the right time.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on turn-taking appropriateness with respect to escalates
+    caution or detail at the right time. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.turn_taking.closing_timing
+  facet_name: Closing Timing
+  category: pragmatics
+  description: Closes only when the exchange is genuinely ready to close.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on turn-taking appropriateness with respect to closes
+    only when the exchange is genuinely ready to close. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.instruction_following.explicit_instruction_compliance
+  facet_name: Explicit Instruction Compliance
+  category: pragmatics
+  description: Complies with direct instructions from the user.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on instruction following with respect to complies with
+    direct instructions from the user. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.instruction_following.format_compliance
+  facet_name: Format Compliance
+  category: pragmatics
+  description: Matches requested format constraints.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on instruction following with respect to matches requested
+    format constraints. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.instruction_following.length_compliance
+  facet_name: Length Compliance
+  category: pragmatics
+  description: Matches requested length constraints.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on instruction following with respect to matches requested
+    length constraints. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.instruction_following.tool_use_compliance
+  facet_name: Tool Use Compliance
+  category: pragmatics
+  description: Uses or avoids tools in line with the request.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on instruction following with respect to uses or avoids
+    tools in line with the request. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.instruction_following.style_compliance
+  facet_name: Style Compliance
+  category: pragmatics
+  description: Matches requested style constraints.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on instruction following with respect to matches requested
+    style constraints. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal is
+    mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.instruction_following.ordering_compliance
+  facet_name: Ordering Compliance
+  category: pragmatics
+  description: Keeps requested ordering or sequencing.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on instruction following with respect to keeps requested
+    ordering or sequencing. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.instruction_following.scope_compliance
+  facet_name: Scope Compliance
+  category: pragmatics
+  description: Respects what the user excluded.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on instruction following with respect to respects what
+    the user excluded. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal is
+    mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.instruction_following.naming_compliance
+  facet_name: Naming Compliance
+  category: pragmatics
+  description: Uses requested names, labels, or identifiers.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on instruction following with respect to uses requested
+    names, labels, or identifiers. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.instruction_following.output_contract_compliance
+  facet_name: Output Contract Compliance
+  category: pragmatics
+  description: Returns the requested output contract.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on instruction following with respect to returns the
+    requested output contract. Assign 25 when performance is weak or inconsistent. Assign 50 when the
+    signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor
+    issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.instruction_following.revision_compliance
+  facet_name: Revision Compliance
+  category: pragmatics
+  description: Implements requested revisions rather than nearby alternatives.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on instruction following with respect to implements
+    requested revisions rather than nearby alternatives. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.grounding.reference_resolution
+  facet_name: Reference Resolution
+  category: pragmatics
+  description: Correctly resolves what prior entities or instructions refer to.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on conversational grounding with respect to correctly
+    resolves what prior entities or instructions refer to. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.grounding.state_tracking
+  facet_name: State Tracking
+  category: pragmatics
+  description: Tracks the active state of the conversation.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on conversational grounding with respect to tracks
+    the active state of the conversation. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.grounding.artifact_tracking
+  facet_name: Artifact Tracking
+  category: pragmatics
+  description: Tracks files, outputs, or prior artifacts correctly.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on conversational grounding with respect to tracks
+    files, outputs, or prior artifacts correctly. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.grounding.constraint_memory
+  facet_name: Constraint Memory
+  category: pragmatics
+  description: Remembers previously stated constraints.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on conversational grounding with respect to remembers
+    previously stated constraints. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.grounding.decision_memory
+  facet_name: Decision Memory
+  category: pragmatics
+  description: Remembers decisions already made.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on conversational grounding with respect to remembers
+    decisions already made. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.grounding.user_preference_memory
+  facet_name: User Preference Memory
+  category: pragmatics
+  description: Carries forward user preferences appropriately.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on conversational grounding with respect to carries
+    forward user preferences appropriately. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.grounding.correction_integration
+  facet_name: Correction Integration
+  category: pragmatics
+  description: Integrates corrections from earlier turns.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on conversational grounding with respect to integrates
+    corrections from earlier turns. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.grounding.environment_grounding
+  facet_name: Environment Grounding
+  category: pragmatics
+  description: Uses local environment facts accurately when available.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on conversational grounding with respect to uses local
+    environment facts accurately when available. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.grounding.identity_grounding
+  facet_name: Identity Grounding
+  category: pragmatics
+  description: Handles speaker identity and role correctly.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on conversational grounding with respect to handles
+    speaker identity and role correctly. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.grounding.shared_reference_stability
+  facet_name: Shared Reference Stability
+  category: pragmatics
+  description: Keeps shared references stable over time.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on conversational grounding with respect to keeps shared
+    references stable over time. Assign 25 when performance is weak or inconsistent. Assign 50 when the
+    signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor
+    issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: pragmatics.strategy.planfulness
+  facet_name: Planfulness
+  category: pragmatics
+  description: Shows a deliberate plan when the task benefits from one.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on conversational strategy with respect to shows a
+    deliberate plan when the task benefits from one. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.strategy.decomposition_quality
+  facet_name: Decomposition Quality
+  category: pragmatics
+  description: Breaks large tasks into sensible steps.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on conversational strategy with respect to breaks large
+    tasks into sensible steps. Assign 25 when performance is weak or inconsistent. Assign 50 when the
+    signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor
+    issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.strategy.tradeoff_clarity
+  facet_name: Tradeoff Clarity
+  category: pragmatics
+  description: Explains key tradeoffs when choices matter.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on conversational strategy with respect to explains
+    key tradeoffs when choices matter. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.strategy.risk_prioritization
+  facet_name: Risk Prioritization
+  category: pragmatics
+  description: Prioritizes important risks instead of trivia.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on conversational strategy with respect to prioritizes
+    important risks instead of trivia. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.strategy.execution_momentum
+  facet_name: Execution Momentum
+  category: pragmatics
+  description: Maintains momentum toward task completion.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on conversational strategy with respect to maintains
+    momentum toward task completion. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.strategy.fallback_quality
+  facet_name: Fallback Quality
+  category: pragmatics
+  description: Provides a sensible fallback when blocked.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on conversational strategy with respect to provides
+    a sensible fallback when blocked. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.strategy.verification_strategy
+  facet_name: Verification Strategy
+  category: pragmatics
+  description: Chooses an appropriate way to validate the result.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on conversational strategy with respect to chooses
+    an appropriate way to validate the result. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.strategy.resource_efficiency
+  facet_name: Resource Efficiency
+  category: pragmatics
+  description: Uses time and tool budget efficiently.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on conversational strategy with respect to uses time
+    and tool budget efficiently. Assign 25 when performance is weak or inconsistent. Assign 50 when the
+    signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor
+    issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.strategy.review_strategy
+  facet_name: Review Strategy
+  category: pragmatics
+  description: Reviews or audits with the right emphasis when asked.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on conversational strategy with respect to reviews
+    or audits with the right emphasis when asked. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: pragmatics.strategy.completion_strategy
+  facet_name: Completion Strategy
+  category: pragmatics
+  description: Chooses a strategy that plausibly completes the task.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on conversational strategy with respect to chooses
+    a strategy that plausibly completes the task. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0

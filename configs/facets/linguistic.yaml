@@ -1,0 +1,1801 @@
+facets:
+- facet_id: linguistic.grammar.subject_verb_agreement
+  facet_name: Subject Verb Agreement
+  category: linguistic
+  description: Maintains agreement between subjects and verbs.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on grammatical control with respect to maintains agreement
+    between subjects and verbs. Assign 25 when performance is weak or inconsistent. Assign 50 when the
+    signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor
+    issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.grammar.tense_consistency
+  facet_name: Tense Consistency
+  category: linguistic
+  description: Keeps tense stable within the turn unless a shift is clearly motivated.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on grammatical control with respect to keeps tense
+    stable within the turn unless a shift is clearly motivated. Assign 25 when performance is weak or
+    inconsistent. Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong
+    on this facet with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.grammar.article_selection
+  facet_name: Article Selection
+  category: linguistic
+  description: Uses articles and determiners naturally.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on grammatical control with respect to uses articles
+    and determiners naturally. Assign 25 when performance is weak or inconsistent. Assign 50 when the
+    signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor
+    issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.grammar.pronoun_reference
+  facet_name: Pronoun Reference
+  category: linguistic
+  description: Keeps pronoun references unambiguous.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on grammatical control with respect to keeps pronoun
+    references unambiguous. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.grammar.modifier_attachment
+  facet_name: Modifier Attachment
+  category: linguistic
+  description: Places modifiers so they clearly attach to the intended phrase.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on grammatical control with respect to places modifiers
+    so they clearly attach to the intended phrase. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.grammar.clause_well_formedness
+  facet_name: Clause Well Formedness
+  category: linguistic
+  description: Builds clauses that are syntactically complete.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on grammatical control with respect to builds clauses
+    that are syntactically complete. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.grammar.sentence_boundary_control
+  facet_name: Sentence Boundary Control
+  category: linguistic
+  description: Marks sentence boundaries clearly and consistently.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on grammatical control with respect to marks sentence
+    boundaries clearly and consistently. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.grammar.morphological_accuracy
+  facet_name: Morphological Accuracy
+  category: linguistic
+  description: Uses inflections and word forms correctly.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on grammatical control with respect to uses inflections
+    and word forms correctly. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.grammar.parallel_structure
+  facet_name: Parallel Structure
+  category: linguistic
+  description: Maintains parallel structure in comparable phrases.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on grammatical control with respect to maintains parallel
+    structure in comparable phrases. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.grammar.fragment_avoidance
+  facet_name: Fragment Avoidance
+  category: linguistic
+  description: Avoids accidental fragments or run-ons.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on grammatical control with respect to avoids accidental
+    fragments or run-ons. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.fluency.reading_flow
+  facet_name: Reading Flow
+  category: linguistic
+  description: Reads smoothly without awkward breaks.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on surface fluency with respect to reads smoothly without
+    awkward breaks. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal is mixed
+    or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues. Assign
+    90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.fluency.phrase_naturalness
+  facet_name: Phrase Naturalness
+  category: linguistic
+  description: Uses phrasing that sounds natural rather than translated or mechanical.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on surface fluency with respect to uses phrasing that
+    sounds natural rather than translated or mechanical. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.fluency.rhythmic_balance
+  facet_name: Rhythmic Balance
+  category: linguistic
+  description: Balances short and long units so the turn feels easy to follow.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on surface fluency with respect to balances short and
+    long units so the turn feels easy to follow. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.fluency.transition_smoothness
+  facet_name: Transition Smoothness
+  category: linguistic
+  description: Moves between clauses without abrupt connective failures.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on surface fluency with respect to moves between clauses
+    without abrupt connective failures. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.fluency.local_cohesion
+  facet_name: Local Cohesion
+  category: linguistic
+  description: Keeps neighboring sentences locally connected.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on surface fluency with respect to keeps neighboring
+    sentences locally connected. Assign 25 when performance is weak or inconsistent. Assign 50 when the
+    signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor
+    issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.fluency.repair_visibility
+  facet_name: Repair Visibility
+  category: linguistic
+  description: Avoids visible self-corrections or abandoned starts.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on surface fluency with respect to avoids visible self-corrections
+    or abandoned starts. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.fluency.register_stability
+  facet_name: Register Stability
+  category: linguistic
+  description: Maintains a stable written register across the turn.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on surface fluency with respect to maintains a stable
+    written register across the turn. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.fluency.response_cadence
+  facet_name: Response Cadence
+  category: linguistic
+  description: Delivers the response with a steady cadence rather than jerky pacing.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on surface fluency with respect to delivers the response
+    with a steady cadence rather than jerky pacing. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.fluency.micro_disfluency_control
+  facet_name: Micro Disfluency Control
+  category: linguistic
+  description: Avoids filler-heavy or disfluent wording.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on surface fluency with respect to avoids filler-heavy
+    or disfluent wording. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.fluency.surface_polish
+  facet_name: Surface Polish
+  category: linguistic
+  description: Feels polished at the sentence level.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on surface fluency with respect to feels polished at
+    the sentence level. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.clarity.main_point_visibility
+  facet_name: Main Point Visibility
+  category: linguistic
+  description: Makes the main point easy to identify.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on clarity of expression with respect to makes the
+    main point easy to identify. Assign 25 when performance is weak or inconsistent. Assign 50 when the
+    signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor
+    issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.clarity.instruction_clarity
+  facet_name: Instruction Clarity
+  category: linguistic
+  description: Presents instructions in an unambiguous way.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on clarity of expression with respect to presents instructions
+    in an unambiguous way. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.clarity.referent_specificity
+  facet_name: Referent Specificity
+  category: linguistic
+  description: Uses specific references instead of vague placeholders.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on clarity of expression with respect to uses specific
+    references instead of vague placeholders. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.clarity.ambiguity_control
+  facet_name: Ambiguity Control
+  category: linguistic
+  description: Avoids avoidable ambiguity in phrasing.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on clarity of expression with respect to avoids avoidable
+    ambiguity in phrasing. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.clarity.example_usefulness
+  facet_name: Example Usefulness
+  category: linguistic
+  description: Uses examples that genuinely clarify the message.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on clarity of expression with respect to uses examples
+    that genuinely clarify the message. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.clarity.qualifier_precision
+  facet_name: Qualifier Precision
+  category: linguistic
+  description: Uses qualifiers precisely instead of loosely.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on clarity of expression with respect to uses qualifiers
+    precisely instead of loosely. Assign 25 when performance is weak or inconsistent. Assign 50 when the
+    signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor
+    issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.clarity.answer_framing
+  facet_name: Answer Framing
+  category: linguistic
+  description: Frames the answer so the reader knows what is coming.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on clarity of expression with respect to frames the
+    answer so the reader knows what is coming. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.clarity.information_sequencing
+  facet_name: Information Sequencing
+  category: linguistic
+  description: Sequences information in a reader-friendly order.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on clarity of expression with respect to sequences
+    information in a reader-friendly order. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.clarity.term_explainability
+  facet_name: Term Explainability
+  category: linguistic
+  description: Explains specialized terms when needed.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on clarity of expression with respect to explains specialized
+    terms when needed. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal is
+    mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.clarity.output_scanability
+  facet_name: Output Scanability
+  category: linguistic
+  description: Makes the turn easy to scan for the needed point.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on clarity of expression with respect to makes the
+    turn easy to scan for the needed point. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.conciseness.verbosity_control
+  facet_name: Verbosity Control
+  category: linguistic
+  description: Avoids unnecessary wordiness.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on economy of expression with respect to avoids unnecessary
+    wordiness. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal is mixed
+    or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues. Assign
+    90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.conciseness.redundant_preface_avoidance
+  facet_name: Redundant Preface Avoidance
+  category: linguistic
+  description: Skips low-value prefacing before the main content.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on economy of expression with respect to skips low-value
+    prefacing before the main content. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.conciseness.duplicate_point_avoidance
+  facet_name: Duplicate Point Avoidance
+  category: linguistic
+  description: Avoids repeating the same point without adding value.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on economy of expression with respect to avoids repeating
+    the same point without adding value. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.conciseness.explanation_density
+  facet_name: Explanation Density
+  category: linguistic
+  description: Keeps explanation density appropriate for the task.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on economy of expression with respect to keeps explanation
+    density appropriate for the task. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.conciseness.closing_efficiency
+  facet_name: Closing Efficiency
+  category: linguistic
+  description: Ends without trailing filler.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on economy of expression with respect to ends without
+    trailing filler. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal is
+    mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.conciseness.qualifier_restraint
+  facet_name: Qualifier Restraint
+  category: linguistic
+  description: Uses caveats only when they materially help.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on economy of expression with respect to uses caveats
+    only when they materially help. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.conciseness.list_compactness
+  facet_name: List Compactness
+  category: linguistic
+  description: Keeps lists compact and signal-rich.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on economy of expression with respect to keeps lists
+    compact and signal-rich. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.conciseness.hedge_restraint
+  facet_name: Hedge Restraint
+  category: linguistic
+  description: Uses hedging sparingly when confidence is adequate.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on economy of expression with respect to uses hedging
+    sparingly when confidence is adequate. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.conciseness.answer_to_request_ratio
+  facet_name: Answer To Request Ratio
+  category: linguistic
+  description: Keeps the answer proportional to the request.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on economy of expression with respect to keeps the
+    answer proportional to the request. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.conciseness.brevity_under_constraints
+  facet_name: Brevity Under Constraints
+  category: linguistic
+  description: Stays concise when the user asks for a short answer.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on economy of expression with respect to stays concise
+    when the user asks for a short answer. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.coherence.goal_alignment
+  facet_name: Goal Alignment
+  category: linguistic
+  description: Keeps the turn aligned with the local conversational goal.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on global coherence with respect to keeps the turn
+    aligned with the local conversational goal. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: linguistic.coherence.logical_progression
+  facet_name: Logical Progression
+  category: linguistic
+  description: Builds a logical progression from start to finish.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on global coherence with respect to builds a logical
+    progression from start to finish. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: linguistic.coherence.premise_consistency
+  facet_name: Premise Consistency
+  category: linguistic
+  description: Avoids contradicting its own premises.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on global coherence with respect to avoids contradicting
+    its own premises. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal is
+    mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: linguistic.coherence.response_unity
+  facet_name: Response Unity
+  category: linguistic
+  description: Feels like one coherent response rather than stitched fragments.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on global coherence with respect to feels like one
+    coherent response rather than stitched fragments. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: linguistic.coherence.reasoning_linkage
+  facet_name: Reasoning Linkage
+  category: linguistic
+  description: Connects conclusions to supporting reasons.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on global coherence with respect to connects conclusions
+    to supporting reasons. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: linguistic.coherence.context_reuse
+  facet_name: Context Reuse
+  category: linguistic
+  description: Reuses relevant prior context coherently.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on global coherence with respect to reuses relevant
+    prior context coherently. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: linguistic.coherence.topic_continuity
+  facet_name: Topic Continuity
+  category: linguistic
+  description: Maintains continuity with the active topic.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on global coherence with respect to maintains continuity
+    with the active topic. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: linguistic.coherence.scope_consistency
+  facet_name: Scope Consistency
+  category: linguistic
+  description: Keeps scope stable across the turn.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on global coherence with respect to keeps scope stable
+    across the turn. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal is
+    mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: linguistic.coherence.constraint_consistency
+  facet_name: Constraint Consistency
+  category: linguistic
+  description: Maintains consistency with known constraints.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on global coherence with respect to maintains consistency
+    with known constraints. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: linguistic.coherence.narrative_containment
+  facet_name: Narrative Containment
+  category: linguistic
+  description: Contains side points so they do not derail the answer.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on global coherence with respect to contains side points
+    so they do not derail the answer. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: true
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: context_window
+  version: 1.0.0
+- facet_id: linguistic.lexical_quality.word_choice_precision
+  facet_name: Word Choice Precision
+  category: linguistic
+  description: Chooses words that precisely fit the intended meaning.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on word choice quality with respect to chooses words
+    that precisely fit the intended meaning. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.lexical_quality.vocabulary_appropriateness
+  facet_name: Vocabulary Appropriateness
+  category: linguistic
+  description: Uses vocabulary appropriate to the audience and task.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on word choice quality with respect to uses vocabulary
+    appropriate to the audience and task. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.lexical_quality.register_fit
+  facet_name: Register Fit
+  category: linguistic
+  description: Matches wording to the expected tone and register.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on word choice quality with respect to matches wording
+    to the expected tone and register. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.lexical_quality.collocation_quality
+  facet_name: Collocation Quality
+  category: linguistic
+  description: Uses common word pairings naturally.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on word choice quality with respect to uses common
+    word pairings naturally. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.lexical_quality.jargon_restraint
+  facet_name: Jargon Restraint
+  category: linguistic
+  description: Avoids unnecessary jargon.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on word choice quality with respect to avoids unnecessary
+    jargon. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal is mixed or
+    merely adequate. Assign 75 when the turn is strong on this facet with only minor issues. Assign 90
+    when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.lexical_quality.synonym_selection
+  facet_name: Synonym Selection
+  category: linguistic
+  description: Chooses substitutions that preserve meaning.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on word choice quality with respect to chooses substitutions
+    that preserve meaning. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.lexical_quality.lexical_variety
+  facet_name: Lexical Variety
+  category: linguistic
+  description: Shows variety without sounding forced.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on word choice quality with respect to shows variety
+    without sounding forced. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.lexical_quality.placeholder_avoidance
+  facet_name: Placeholder Avoidance
+  category: linguistic
+  description: Avoids vague placeholders such as thing or stuff.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on word choice quality with respect to avoids vague
+    placeholders such as thing or stuff. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.lexical_quality.idiom_control
+  facet_name: Idiom Control
+  category: linguistic
+  description: Uses idioms only when they fit the audience.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on word choice quality with respect to uses idioms
+    only when they fit the audience. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.lexical_quality.precision_under_nuance
+  facet_name: Precision Under Nuance
+  category: linguistic
+  description: Keeps wording precise when the subject is nuanced.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on word choice quality with respect to keeps wording
+    precise when the subject is nuanced. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.redundancy_control.phrase_repetition_control
+  facet_name: Phrase Repetition Control
+  category: linguistic
+  description: Avoids repeating the same phrase unnecessarily.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on redundancy control with respect to avoids repeating
+    the same phrase unnecessarily. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.redundancy_control.sentence_repetition_control
+  facet_name: Sentence Repetition Control
+  category: linguistic
+  description: Avoids restating entire sentence ideas.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on redundancy control with respect to avoids restating
+    entire sentence ideas. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.redundancy_control.semantic_overlap_control
+  facet_name: Semantic Overlap Control
+  category: linguistic
+  description: Prevents multiple lines from carrying the same meaning.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on redundancy control with respect to prevents multiple
+    lines from carrying the same meaning. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.redundancy_control.disclaimer_recycling_avoidance
+  facet_name: Disclaimer Recycling Avoidance
+  category: linguistic
+  description: Avoids reusing disclaimers after they are established.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on redundancy control with respect to avoids reusing
+    disclaimers after they are established. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.redundancy_control.acknowledgment_repetition_control
+  facet_name: Acknowledgment Repetition Control
+  category: linguistic
+  description: Keeps acknowledgments from becoming repetitive.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on redundancy control with respect to keeps acknowledgments
+    from becoming repetitive. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.redundancy_control.transition_reuse_restraint
+  facet_name: Transition Reuse Restraint
+  category: linguistic
+  description: Avoids repeating identical transition phrases.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on redundancy control with respect to avoids repeating
+    identical transition phrases. Assign 25 when performance is weak or inconsistent. Assign 50 when the
+    signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor
+    issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.redundancy_control.template_signature_avoidance
+  facet_name: Template Signature Avoidance
+  category: linguistic
+  description: Avoids sounding like a canned template.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on redundancy control with respect to avoids sounding
+    like a canned template. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.redundancy_control.boilerplate_suppression
+  facet_name: Boilerplate Suppression
+  category: linguistic
+  description: Suppresses generic boilerplate when it adds no value.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on redundancy control with respect to suppresses generic
+    boilerplate when it adds no value. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.redundancy_control.self_reference_restraint
+  facet_name: Self Reference Restraint
+  category: linguistic
+  description: Avoids unnecessary self-referential statements.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on redundancy control with respect to avoids unnecessary
+    self-referential statements. Assign 25 when performance is weak or inconsistent. Assign 50 when the
+    signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor
+    issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.redundancy_control.recap_discipline
+  facet_name: Recap Discipline
+  category: linguistic
+  description: Uses recap only when it sharpens understanding.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on redundancy control with respect to uses recap only
+    when it sharpens understanding. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.punctuation_discipline.terminal_punctuation_consistency
+  facet_name: Terminal Punctuation Consistency
+  category: linguistic
+  description: Ends sentences with consistent terminal punctuation.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on punctuation discipline with respect to ends sentences
+    with consistent terminal punctuation. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.punctuation_discipline.comma_control
+  facet_name: Comma Control
+  category: linguistic
+  description: Uses commas to clarify rather than clutter.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on punctuation discipline with respect to uses commas
+    to clarify rather than clutter. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.punctuation_discipline.colon_and_dash_use
+  facet_name: Colon And Dash Use
+  category: linguistic
+  description: Uses colons and dashes intentionally.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on punctuation discipline with respect to uses colons
+    and dashes intentionally. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.punctuation_discipline.quote_integrity
+  facet_name: Quote Integrity
+  category: linguistic
+  description: Keeps quotations properly delimited.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on punctuation discipline with respect to keeps quotations
+    properly delimited. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.punctuation_discipline.parenthetical_balance
+  facet_name: Parenthetical Balance
+  category: linguistic
+  description: Balances parentheses and similar marks correctly.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on punctuation discipline with respect to balances
+    parentheses and similar marks correctly. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.punctuation_discipline.exclamation_restraint
+  facet_name: Exclamation Restraint
+  category: linguistic
+  description: Uses exclamation marks with restraint.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on punctuation discipline with respect to uses exclamation
+    marks with restraint. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal
+    is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor issues.
+    Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.punctuation_discipline.question_mark_fidelity
+  facet_name: Question Mark Fidelity
+  category: linguistic
+  description: Uses question marks only when the sentence is genuinely interrogative.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on punctuation discipline with respect to uses question
+    marks only when the sentence is genuinely interrogative. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.punctuation_discipline.ellipsis_restraint
+  facet_name: Ellipsis Restraint
+  category: linguistic
+  description: Avoids overusing ellipses.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on punctuation discipline with respect to avoids overusing
+    ellipses. Assign 25 when performance is weak or inconsistent. Assign 50 when the signal is mixed or
+    merely adequate. Assign 75 when the turn is strong on this facet with only minor issues. Assign 90
+    when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.punctuation_discipline.enumeration_punctuation
+  facet_name: Enumeration Punctuation
+  category: linguistic
+  description: Punctuates inline enumerations cleanly.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on punctuation discipline with respect to punctuates
+    inline enumerations cleanly. Assign 25 when performance is weak or inconsistent. Assign 50 when the
+    signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor
+    issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.punctuation_discipline.symbol_noise_control
+  facet_name: Symbol Noise Control
+  category: linguistic
+  description: Avoids stray symbols and punctuation noise.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on punctuation discipline with respect to avoids stray
+    symbols and punctuation noise. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: text_span
+  version: 1.0.0
+- facet_id: linguistic.structure.opening_orientation
+  facet_name: Opening Orientation
+  category: linguistic
+  description: Starts with an orientation that helps the reader enter the answer.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on response structure with respect to starts with an
+    orientation that helps the reader enter the answer. Assign 25 when performance is weak or inconsistent.
+    Assign 50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet
+    with only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.structure.section_break_quality
+  facet_name: Section Break Quality
+  category: linguistic
+  description: Uses structural breaks that improve comprehension.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on response structure with respect to uses structural
+    breaks that improve comprehension. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.structure.list_logic
+  facet_name: List Logic
+  category: linguistic
+  description: Builds lists with parallel and logically grouped items.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on response structure with respect to builds lists
+    with parallel and logically grouped items. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.structure.ordering_strategy
+  facet_name: Ordering Strategy
+  category: linguistic
+  description: Orders points in a deliberate, effective way.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on response structure with respect to orders points
+    in a deliberate, effective way. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.structure.conclusion_quality
+  facet_name: Conclusion Quality
+  category: linguistic
+  description: Closes with a useful conclusion or handoff.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on response structure with respect to closes with a
+    useful conclusion or handoff. Assign 25 when performance is weak or inconsistent. Assign 50 when the
+    signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor
+    issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.structure.headline_helpfulness
+  facet_name: Headline Helpfulness
+  category: linguistic
+  description: Uses headings or lead-ins only when they help.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on response structure with respect to uses headings
+    or lead-ins only when they help. Assign 25 when performance is weak or inconsistent. Assign 50 when
+    the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only
+    minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.structure.progressive_disclosure
+  facet_name: Progressive Disclosure
+  category: linguistic
+  description: Reveals detail progressively instead of dumping it at once.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on response structure with respect to reveals detail
+    progressively instead of dumping it at once. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.structure.answer_packaging
+  facet_name: Answer Packaging
+  category: linguistic
+  description: Packages the response into a clear overall shape.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on response structure with respect to packages the
+    response into a clear overall shape. Assign 25 when performance is weak or inconsistent. Assign 50
+    when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.structure.structural_balance
+  facet_name: Structural Balance
+  category: linguistic
+  description: Balances structural parts instead of overloading one region.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on response structure with respect to balances structural
+    parts instead of overloading one region. Assign 25 when performance is weak or inconsistent. Assign
+    50 when the signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with
+    only minor issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0
+- facet_id: linguistic.structure.format_fitness
+  facet_name: Format Fitness
+  category: linguistic
+  description: Uses a format that fits the user request.
+  score_labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+  rubric: Assign 10 when the turn materially fails on response structure with respect to uses a format
+    that fits the user request. Assign 25 when performance is weak or inconsistent. Assign 50 when the
+    signal is mixed or merely adequate. Assign 75 when the turn is strong on this facet with only minor
+    issues. Assign 90 when the turn is exemplary on this facet.
+  requires_context: false
+  applicable_speakers:
+  - assistant
+  - user
+  evidence_type: mixed
+  version: 1.0.0

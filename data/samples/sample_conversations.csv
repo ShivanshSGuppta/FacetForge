@@ -1,0 +1,7 @@
+conversation_id,turn_id,speaker,text
+conv_001,t1,user,"Hi, can you help me write a polite follow-up email after an interview?"
+conv_001,t2,assistant,"Absolutely. I can draft a concise follow-up that thanks the interviewer, restates your interest, and keeps the tone professional."
+conv_001,t3,user,"Yes please, make it warm but not too casual."
+conv_001,t4,assistant,Here is a version you can send: Thank you again for taking the time to speak with me today. I appreciated learning more about the role and remain very interested in the opportunity.
+conv_002,t1,user,I'm really frustrated. My order never arrived and support keeps looping me around.
+conv_002,t2,assistant,I'm sorry you're dealing with that. I understand why that would be frustrating. Let's work through the order number and the most recent update so I can help you draft a clear escalation message.

@@ -1,0 +1,10 @@
+{
+  "run_id": "sample_run",
+  "artifacts": {
+    "turn_results_jsonl": "/Users/ssg/Desktop/FacetForge/outputs/predictions/sample_run_turn_results.jsonl",
+    "facet_results_csv": "/Users/ssg/Desktop/FacetForge/outputs/predictions/sample_run_facet_results.csv",
+    "normalized_turns_csv": "/Users/ssg/Desktop/FacetForge/outputs/reports/sample_run_normalized_turns.csv",
+    "features_csv": "/Users/ssg/Desktop/FacetForge/outputs/reports/sample_run_features.csv",
+    "category_summary_csv": "/Users/ssg/Desktop/FacetForge/outputs/reports/sample_run_category_summary.csv"
+  }
+}

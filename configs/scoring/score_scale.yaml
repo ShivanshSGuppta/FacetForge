@@ -1,0 +1,8 @@
+labels:
+  - 10
+  - 25
+  - 50
+  - 75
+  - 90
+description: Ordered benchmark-like labels shared across every facet.
+
