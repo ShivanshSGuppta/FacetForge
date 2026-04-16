@@ -171,5 +171,5 @@ Per facet, the exported schema includes:
 PYTHONPATH=src pytest
 ```
 
-## Interview Framing
+## Product Framing
 > I designed it as a config-driven evaluation platform rather than a one-shot prompt solution. Facets live in a registry, deterministic code extracts observable signals, grouped rubric packets drive the judge model, and a calibration plus confidence layer stabilizes outputs while keeping the system auditable.
